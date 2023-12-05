@@ -376,6 +376,11 @@ footer a:hover{
     max-width: 50%;
 }
 
+.about-info h1{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
 .about-info h2{
     margin-bottom:0.5em;
 }
