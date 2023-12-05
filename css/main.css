@@ -65,25 +65,14 @@ hr{
     justify-content: space-between;
     padding: 1rem;
     position: relative;
-    /* background-color: rgb(43, 40, 38);  */
-    background-color: #4F4D58;
+    background-color:#3E3E3E;
     color:white;
     box-shadow: 0.125rem 0.125rem 0.3125rem rgba(60, 57, 55, 0.5);
-
-    margin-bottom: 3rem;
 }
 
 .nav-main h1{
     padding-left: 1rem;
 }
-
-.nav-main h1:hover{
-    
-    cursor: pointer;
-    color: #bcb8b6;
-    
-}
-
 
 .nav-button-grid{
     display: flex;
@@ -94,19 +83,35 @@ hr{
 .nav-button-grid a{
     
     font:bold;
-    color:white;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
 
-.nav-button-grid a:hover{
-    text-decoration: underline;
-    text-decoration-color: #bcb8b6;
-    text-decoration-thickness: 0.1em;
-    text-underline-offset: 0.15em;
-    cursor: pointer;
-    color: #bcb8b6;
-    
+/* underline Animation from https://css-irl.info/animating-underlines/ */
+
+.nav-button-grid a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5px; 
+    background-color: #bcb8b6;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.2s ease-in-out;
 }
 
+.nav-button-grid a:hover {
+    color: #aaa8a6;
+}
+
+.nav-button-grid a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 
 
 
@@ -118,11 +123,15 @@ hr{
     padding: 0.2rem;
     
 }
+
+
 .intro {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    margin-top: 6rem;
+   
+    background-image: linear-gradient(to bottom, rgba(173, 191, 255, 0.9), rgba(214, 232, 255, 0.3));
+    padding-top: 6rem;
+    padding-bottom: 8rem;
 
 }
 
@@ -147,7 +156,7 @@ hr{
 
 .work{
     text-align: center;
-    margin:10rem auto 4rem auto;
+    margin:3rem auto 4rem auto;
 
 }
 
@@ -209,7 +218,7 @@ footer{
     margin-top: 4rem;
     padding: 2rem;
     text-align: center;
-    background-color:#4F4D58;
+    background-color:#3E3E3E;
     color: white;
 }
 
@@ -234,6 +243,8 @@ footer a:hover{
     margin-left: 3rem;
     display: flex;
     margin-bottom: 3rem;
+    
+    
     
 }
 
@@ -337,11 +348,20 @@ footer a:hover{
     align-items: center;
     padding-left: 2vw;
     padding-right: 2vw;
+    margin-top: 4rem;
+    background-color: ;
 }
 
 .about-me img{
     height:auto;
     width:30%;
+}
+
+.line{
+    width: 2px;
+    height: 350px;
+    background-color: #000;
+    margin: 0 40px;
 }
 
 .about-info{
