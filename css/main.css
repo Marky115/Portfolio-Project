@@ -258,7 +258,9 @@ footer a:hover{
 .left-column,
 .right-column {
     flex: 1;
+    
 }
+
 
 .centerAlign{
     margin: auto;
