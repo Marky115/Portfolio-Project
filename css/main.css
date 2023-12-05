@@ -373,7 +373,7 @@ footer a:hover{
     padding-left: 2vw;
     padding-right: 2vw;
     margin-top: 4rem;
-    background-image: linear-gradient(to bottom, rgba(173, 191, 255, 0.9), rgba(214, 232, 255, 0.3));
+    /* background-image: linear-gradient(to bottom, rgba(173, 191, 255, 0.9), rgba(214, 232, 255, 0.3)); */
 }
 
 .about-me img{

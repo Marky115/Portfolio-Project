@@ -26,6 +26,11 @@
         font-size: 1.75rem;
     }
 
+    .final-design img {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 @media (max-width: 43rem){
@@ -50,6 +55,11 @@
         margin-left: 1.25rem;
         margin-top: 1rem;
     }
+
+    .project-info{
+        flex-direction: column;
+       
+    }
 }
 
 @media(max-width:25rem){
@@ -67,6 +77,24 @@
         text-align: center;
         margin: 1rem auto 0 auto;
     }
+
+    .centerAlign {
+        margin: auto;
+        width: 80%;
+        padding: 0;
+    }
+
+   .grid-form{
+        width: 70%;
+   }
+
+   .design-issue img {
+        height: auto;
+    }
+
+    .nav-button-grid {
+       padding-right: 0;
+    }
 }
  
 
@@ -78,6 +106,13 @@
         grid-template-rows: auto;
         grid-auto-flow: row;
         gap: 1rem;
+        margin: 2rem;
+    }
+
+    .centerAlign {
+        margin: auto;
+        width: 70%;
+        padding: 2rem;
     }
 }
 
@@ -93,7 +128,7 @@
 
     .about-me img{
         height:auto;
-        width:50%;
+        width:70%;
     }
 
     .about-info{
