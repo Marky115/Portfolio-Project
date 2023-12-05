@@ -129,7 +129,7 @@ hr{
     display: flex;
     align-items: center;
    
-    background-image: linear-gradient(to bottom, rgba(173, 191, 255, 0.9), rgba(214, 232, 255, 0.3));
+   
     padding-top: 6rem;
     padding-bottom: 8rem;
 
@@ -312,28 +312,6 @@ footer a:hover{
 }
 
 
-.center{
-    text-align: center;
-    margin-bottom: 4rem;
-    padding: 1rem;
- 
-}
-
-.center a{
-  
-    padding: 0.6em;
-    outline: #2b2826 solid 0.125rem; 
-    box-sizing: border-box;
-    width: 100%;
-    color: black;
-}
-
-.center a:hover{
-    background-color: #2b2826;
-    color: white;
-    transition: background-color 0.3s ease;
-}
-
 .final-design{
     display:flex;
     flex-direction: column;
@@ -373,7 +351,7 @@ footer a:hover{
     padding-left: 2vw;
     padding-right: 2vw;
     margin-top: 4rem;
-    /* background-image: linear-gradient(to bottom, rgba(173, 191, 255, 0.9), rgba(214, 232, 255, 0.3)); */
+    
 }
 
 .about-me img{
