@@ -149,6 +149,7 @@ hr{
 .text-container p{
     font-size: 2rem;
 }
+
 .text-container h2{
     
     font-size: 2.5rem; 
@@ -156,7 +157,7 @@ hr{
 
 .work{
     text-align: center;
-    margin:3rem auto 4rem auto;
+    margin:4rem auto 4rem auto;
 
 }
 
@@ -360,10 +361,14 @@ footer a:hover{
 }
 
 .line{
-    width: 2px;
-    height: 350px;
-    background-color: #000;
-    margin: 0 40px;
+    position: relative;
+    width: 100%;
+    height: 0.1rem;
+    background: linear-gradient(to right, transparent, #000, transparent);
+    display: block;
+    content: "";
+   
+    overflow: hidden;
 }
 
 .about-info{
