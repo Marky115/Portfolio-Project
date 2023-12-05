@@ -1,0 +1,103 @@
+@media (min-width:87rem){
+    p{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 50rem){
+
+    .project{
+        grid-template-columns: 1fr;
+      
+    }
+
+    .project-detail{
+        margin-bottom: 2rem;
+        
+    }
+
+    .text-container h2 {
+        font-size: 1.5rem;
+       
+    }
+    
+    .work{
+        margin: 5rem auto 1rem auto;
+        font-size: 1.75rem;
+    }
+
+}
+
+@media (max-width: 43rem){
+    .intro-element{
+        flex-direction: column;
+        align-items: normal;
+       
+
+    }
+
+    .intro img {
+        width: 40%;
+        height: auto;
+        max-width: 100%;
+        margin-left: 1.25rem;
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-left: 1.25rem;
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width:25rem){
+    p{
+        font-size: 1.2rem;
+    }
+    .intro img {
+        width: 70%;
+        height: auto;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .text-container{
+        text-align: center;
+        margin: 1rem auto 0 auto;
+    }
+}
+ 
+
+/* project page */
+
+@media (max-width:48rem){
+    .grid-form{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+        gap: 1rem;
+    }
+}
+
+/* About me */
+
+@media (max-width:50rem){
+    .about-me{
+        flex-direction: column;
+        
+           
+    
+    }
+
+    .about-me img{
+        height:auto;
+        width:50%;
+    }
+
+    .about-info{
+        max-width: 70%;
+        margin: 0;
+    }
+}
